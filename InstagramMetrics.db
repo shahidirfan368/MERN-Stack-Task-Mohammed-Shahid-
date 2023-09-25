@@ -1,0 +1,11 @@
+const mongoose = require('mongoose');
+
+const InstagramMetricsSchema = new mongoose.Schema({
+  account_id: String,
+  impressions: Number,
+  reach: Number,
+  engagement_rate: Number,
+  date: Date
+});
+
+const InstagramMetrics = mongoose.model('InstagramMetrics', InstagramMetricsSchema);

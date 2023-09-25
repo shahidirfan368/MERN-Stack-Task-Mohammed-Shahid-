@@ -1,0 +1,7 @@
+{
+  "account_id": String,
+  "impressions": Number,
+  "reach": Number,
+  "engagement_rate": Number,
+  "date": Date
+}
